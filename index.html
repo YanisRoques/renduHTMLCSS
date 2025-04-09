@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -122,32 +129,39 @@
 
         <section id="nouscontacter">
             <h3>Nous contacter</h3>
-        </section>
-        <section id="sectionformulaire">
-            <div id="formulaire">
-                <div id="nommail">
-                    <form action="">
-                        <label for="Nom">Nom:</label><br>
-                        <input type="text" id="Nom" name="Nom"><br>
+            <div id="form">
+                <form action="">
+                    <div class="firstRow">
+                        <div>
+                            <label for="">Nom</label><br>
+                            <input class="bouton2" type="text">
+                        </div>
+                        <div>
+                            <label for="">Mail</label><br>
+                            <input class="bouton2" type="email">
+                        </div>
+                    </div>
 
-                        <label for="Mail">Mail:</label><br>
-                        <input type="text" id="Mail" name="Mail"><br>
-                    </form>
-                </div>
-                <div>
-                    <form action="">
-                        <label for="Message">Message</label><br>
-                        <input type="text" id="Message" name="Message"><br>
-                        <input type="submit" value="Envoyer">
-                    </form>
-                </div>
+                    <div class="secondRow">
+                        <div>
+                            <label for="">Message</label>
+                            <div>
+                            <textarea class="bouton2" name="" id=""></textarea>
+                        </div>
+                        <div id="envoyer">
+                            <input class="bouton" type="submit" value="Envoyer">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
 
-    <footer>
-        <img src="lospolloshermanos.png" alt="lospolloshermanos">
-        <h2>Los Pollos Hermanos</h2>
+    <footer id="footer">
+        <div id="footer1-1">
+            <img src="lospolloshermanos.png" alt="lospolloshermanos">
+            <h2>Los Pollos Hermanos</h2>
+        </div>
         <p>Le meilleur poulet du Sud Ouest.</p>
     </footer>
 </body>
