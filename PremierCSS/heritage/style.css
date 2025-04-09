@@ -1,0 +1,12 @@
+body{
+    color: red;
+}
+p{
+   color: green;
+}
+.blue{
+    color: blue;
+}
+#yellow{
+    color: rgb(255, 106, 0);
+}
